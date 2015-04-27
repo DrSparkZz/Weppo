@@ -1,0 +1,42 @@
+object ZuWenig: TFGUIFormular
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'F:\Weppo\ZuWenig.jfm'
+  ClientHeight = 64
+  ClientWidth = 255
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  FormStyle = fsMDIChild
+  OldCreateOrder = True
+  Position = poDesigned
+  Visible = True
+  OnClose = FormClose
+  OnCloseQuery = FormCloseQuery
+  OnResize = FormResize
+  PixelsPerInch = 96
+  TextHeight = 16
+  object jLabel1: TLabel
+    Tag = 1
+    Left = 16
+    Top = 8
+    Width = 231
+    Height = 16
+    HelpType = htKeyword
+    Caption = 'Hast du vergessen etwas einzugeben?'
+  end
+  object jButton1: TButton
+    Tag = 4
+    Left = 80
+    Top = 32
+    Width = 89
+    Height = 25
+    HelpType = htKeyword
+    Caption = 'Zur'#252'ck'
+    TabOrder = 0
+  end
+end

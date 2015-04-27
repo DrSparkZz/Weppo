@@ -1,0 +1,43 @@
+[Files]
+File0=LoginDialog.java
+File1=Weppo.java
+
+[Box:  - com.weppo.chat.LoginDialog]
+X=20
+Y=40
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=11
+FontName=MS Sans Serif
+
+[Box:  - com.weppo.chat.Weppo]
+X=74
+Y=345
+MinVis=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+FontSize=11
+FontName=MS Sans Serif
+
+[Diagram]
+comments=0
+OffsetX=0
+OffsetY=0
+Visibility=0
+ShowParameter=4
+SortOrder=0
+ShowIcons=0
+ShowConnections=0
+Fontname=MS Sans Serif
+Fontsize=11
+ShowObjectDiagram=0
+
+[Connections]
+V0=com.weppo.chat.LoginDialog#com.weppo.chat.Weppo#AssociationDirected####0#0#0
+
+[Interactive]
+I0=
+
